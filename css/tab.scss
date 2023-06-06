@@ -5,14 +5,17 @@
 //   background-color: var(--nord0) !important;
 // }
 [theme='dark'] {
+
   #zotero-tb-toggle-item-pane,
   #zotero-tb-toggle-notes-pane {
     background: var(--nord1) !important;
   }
+
   #zotero-tb-toggle-item-pane span,
   #zotero-tb-toggle-notes-pane span {
     display: none;
   }
+
   #zotero-tb-split {
     background: var(--nord0) !important;
   }
@@ -105,15 +108,14 @@
   }
 
   .citation {
+
     &.selected,
     &:hover {
       background-color: var(--citation-hover-background-color) !important;
     }
 
     &.ProseMirror-selectednode {
-      background-color: var(
-        --citation-ProseMirror-selectednode-background-color
-      ) !important;
+      background-color: var(--citation-ProseMirror-selectednode-background-color) !important;
     }
   }
 
@@ -126,6 +128,7 @@
   }
 
   .primary-editor {
+
     p,
     h1,
     h2,
@@ -163,15 +166,11 @@
       }
 
       .selectedCell:after {
-        background: var(
-          --primary-editor-selectedCell-after-background
-        ) !important;
+        background: var(--primary-editor-selectedCell-after-background) !important;
       }
 
       .column-resize-handle {
-        background-color: var(
-          --primary-editor-column-resize-handle-background-color
-        ) !important;
+        background-color: var(--primary-editor-column-resize-handle-background-color) !important;
       }
     }
 
@@ -179,22 +178,16 @@
       background-color: var(--table-border) !important;
 
       &.ProseMirror-selectednode {
-        background-color: var(
-          --primary-editor-column-resize-handle-background-color
-        ) !important;
+        background-color: var(--primary-editor-column-resize-handle-background-color) !important;
       }
     }
 
     &.column-resize-handle {
-      background-color: var(
-        --primary-editor-column-resize-handle-background-color
-      ) !important;
+      background-color: var(--primary-editor-column-resize-handle-background-color) !important;
     }
 
     &.selectedCell:after {
-      background: var(
-        --primary-editor-selectedCell-after-background
-      ) !important;
+      background: var(--primary-editor-selectedCell-after-background) !important;
     }
   }
 
@@ -215,9 +208,7 @@
   }
 
   .ProseMirror-selectednode {
-    background-color: var(
-      --citation-ProseMirror-selectednode-background-color
-    ) !important;
+    background-color: var(--citation-ProseMirror-selectednode-background-color) !important;
   }
 
   .regular-image .resized-wrapper .image {
@@ -248,6 +239,7 @@
       &::before {
         border-bottom-color: var(--before-border-bottom-color) !important;
       }
+
       &::after {
         border-bottom-color: var(--body-background-color) !important;
       }
@@ -283,6 +275,7 @@
         color: var(--button-color) !important;
 
         .button {
+
           &:hover,
           &.hover {
             background-color: var(--button-hover-background) !important;
@@ -384,6 +377,7 @@
   body {
     background: var(--nord0) !important;
   }
+
   sidebarResizer {
     background: var(--nord0) !important;
   }
@@ -401,6 +395,7 @@
       background-color: var(--nord1);
       color: var(--nord5);
     }
+
     &[class*='bottom']::after {
       border-bottom-color: var(--nord1);
     }
@@ -433,8 +428,7 @@
   }
 
   #toolbarViewer button {
-    filter: brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.65)
-      hue-rotate(180deg) !important;
+    filter: brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.65) hue-rotate(180deg) !important;
     border-image: none !important;
     border-radius: 1rem;
   }
@@ -474,6 +468,7 @@
     .highlight {
       color: var(--nord4) !important;
     }
+
     &:hover {
       background-color: var(--nord3) !important;
     }
@@ -488,9 +483,10 @@
     filter: var(--dark-filter) !important;
   }
 
-  #outlineView .treeItem > a {
+  #outlineView .treeItem>a {
     color: var(--nord4) !important;
   }
+
   #annotationsView .search {
     margin: 6px 5px !important;
   }
@@ -527,21 +523,26 @@
     margin-top: -15px;
     border-radius: 5px;
   }
+
   .editor .bubble .button:hover {
     background-color: var(--nord4) !important;
   }
+
   #zotero-context-toolbar-extension {
     background: var(--nord0) !important;
     background-color: var(--nord0) !important;
   }
+
   box#zotero-tab-toolbar {
     background: var(--nord0) !important;
     background-color: var(--nord0) !important;
   }
+
   box#zotero-tb-split {
     background: var(--nord0) !important;
     background-color: var(--nord0) !important;
   }
+
   .notes-container,
   .zotero-context-notes-list {
     background-color: var(--nord1) !important;
@@ -573,6 +574,7 @@
   .toolbar {
     background: var(--nord0) !important;
   }
+
   .editor .toolbar-button {
     color: var(--nord4);
   }
@@ -599,16 +601,15 @@
 
   .toolbar #pageNumber {
     padding: 0 4px;
-    background: linear-gradient(
-      to bottom,
-      var(--nord2),
-      var(--nord1)
-    ) !important;
+    background: linear-gradient(to bottom,
+        var(--nord2),
+        var(--nord1)) !important;
     box-shadow: none !important;
     color: var(--nord5) !important;
 
     border-radius: 3px;
   }
+
   .toolbar #numPages {
     color: var(--nord4) !important;
   }
@@ -620,6 +621,7 @@
   .zotero-editpane-tabs .tab {
     background: var(--nord3);
   }
+
   #zotero-context-pane-inner {
     background-color: var(--nord0);
   }
@@ -628,11 +630,13 @@
     background-color: var(--nord0);
     color: var(--nord4);
   }
+
   #links-container {
     background-color: var(--nord0);
     color: var(--nord4);
   }
-  .toolbar .annotation-tools .toolbarButton > span {
+
+  .toolbar .annotation-tools .toolbarButton>span {
     background: none !important;
   }
 

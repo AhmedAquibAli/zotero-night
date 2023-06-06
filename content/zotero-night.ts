@@ -69,12 +69,12 @@ class Night {
       nord: {
         filter:
           // 'invert(81%) sepia(23%) saturate(459%) hue-rotate(181deg) brightness(90%) contrast(93%)',
-          'invert(84%) sepia(59%) saturate(210%) hue-rotate(185deg) brightness(93%) contrast(88%)',
+          'invert(84%) sepia(2%) saturate(210%) hue-rotate(314deg) brightness(93%) contrast(88%)',
         icon: '✨',
       },
       dark: {
         filter:
-          'brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.65) hue-rotate(180deg)',
+          'brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.00) hue-rotate(314deg)',
         icon: '🌙',
       },
     }
@@ -163,8 +163,8 @@ class Night {
     const filters = Object.entries(this._filters)
     const nextFilterName =
       filters[
-        (filters.findIndex((filter) => filter[0] === this._currentFilter) + 1) %
-          filters.length
+      (filters.findIndex((filter) => filter[0] === this._currentFilter) + 1) %
+      filters.length
       ][0]
     this._currentFilter = nextFilterName
     return nextFilterName
@@ -186,9 +186,8 @@ class Night {
   }
 
   private setFilterStyle(styleTag: HTMLStyleElement, style?: string) {
-    styleTag.textContent = `[theme='dark'] .page .canvasWrapper canvas:not(.selectionCanvas) { filter:  ${
-      style || this.getCurrentFilterString()
-    } }
+    styleTag.textContent = `[theme='dark'] .page .canvasWrapper canvas:not(.selectionCanvas) { filter:  ${style || this.getCurrentFilterString()
+      } }
     `
     return styleTag
   }

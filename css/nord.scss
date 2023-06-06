@@ -7,8 +7,8 @@
   Styleguide Nord - Polar Night
   */
   --test: #ffffff;
-  --nord4-rgba7: rgba(216, 222, 233, 0.5);
-  --nord0: #2e3441;
+  --nord4-rgba7: #e7e7e780;
+  --nord0: #2B2B2B;
 
   /*
   Lighter shade color of the base component color.
@@ -17,7 +17,7 @@
   <div style="background-color:#3b4252; width=60; height=60"></div>
   Styleguide Nord - Polar Night
   */
-  --nord1: #3b4252;
+  --nord1: #4c4c4c;
 
   /*
   Lighter shade color of the base component color.
@@ -27,7 +27,7 @@
   <div style="background-color:#434c5e; width=60; height=60"></div>
   Styleguide Nord - Polar Night
   */
-  --nord2: #434c5e;
+  --nord2: #5d5d5d;
 
   /*
   Lighter shade color of the base component color.
@@ -37,7 +37,7 @@
   <div style="background-color:#4c566a; width=60; height=60"></div>
   Styleguide Nord - Polar Night
   */
-  --nord3: #4c566a;
+  --nord3: #616161;
 
   /*
   Base component color of "Snow Storm".
@@ -47,8 +47,8 @@
   <div style="background-color:#d8dee9; width=60; height=60"></div>
   Styleguide Nord - Snow Storm
   */
-  --nord35: #c8d0e0;
-  --nord4: rgb(216, 222, 233);
+  --nord35: #dfdfdf;
+  --nord4: rgb(229, 229, 229);
 
   /*
   Lighter shade color of the base component color.
@@ -58,7 +58,7 @@
   <div style="background-color:#e5e9f0; width=60; height=60"></div>
   Styleguide Nord - Snow Storm
   */
-  --nord5: #e5e9f0;
+  --nord5: #ececec;
 
   /*
   Lighter shade color of the base component color.
@@ -68,7 +68,7 @@
   <div style="background-color:#eceff4; width=60; height=60"></div>
   Styleguide Nord - Snow Storm
   */
-  --nord6: #eceff4;
+  --nord6: #f1f1f1;
 
   /*
   Bluish core color.
@@ -77,7 +77,7 @@
   <div style="background-color:#8fbcbb; width=60; height=60"></div>
   Styleguide Nord - Frost
   */
-  --nord7: #8fbcbb;
+  --nord7: #b9b9b9;
 
   /*
   Bluish core accent color.
@@ -90,7 +90,7 @@
   <div style="background-color:#88c0d0; width=60; height=60"></div>
   Styleguide Nord - Frost
   */
-  --nord8: #88c0d0;
+  --nord8: #cdcdcd;
 
   /*
   Bluish core color.
@@ -100,7 +100,7 @@
   <div style="background-color:#81a1c1; width=60; height=60"></div>
   Styleguide Nord - Frost
   */
-  --nord9: #81a1c1;
+  --nord9: #bdbdbd;
 
   /*
   Bluish core color.
@@ -109,7 +109,7 @@
   <div style="background-color:#5e81ac; width=60; height=60"></div>
   Styleguide Nord - Frost
   */
-  --nord10: #5e81ac;
+  --nord10: #818181;
 
   /*
   Colorful component color.
@@ -147,7 +147,7 @@
   <div style="background-color:#a3be8c; width=60; height=60"></div>
   Styleguide Nord - Aurora
   */
-  --nord14: #a3be8c;
+  --nord14: #adadad;
 
   /*
   Colorful component color.
@@ -158,10 +158,8 @@
   */
   --nord15: #b48ead;
 
-  --dark-filter: brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.65)
-    hue-rotate(180deg);
-  --nord-filter: invert(81%) sepia(23%) saturate(459%) hue-rotate(181deg)
-    brightness(90%) contrast(93%);
+  --dark-filter: brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.65) hue-rotate(180deg);
+  --nord-filter: invert(81%) sepia(23%) saturate(459%) brightness(90%) contrast(93%) hue-rotate(181deg);
 
   --body-background-color: var(--nord1);
   --a-background-color: rgba(0, 0, 0, 0);
@@ -169,7 +167,7 @@
   --citation-ProseMirror-selectednode-background-color: var(--nord5);
   --find-background-color: var(--nord13);
   --primary-editor-column-resize-handle-background-color: var(--nord9);
-  --primary-editor-selectedCell-after-background: rgba(200, 200, 255, 0.4);
+  --primary-editor-selectedCell-after-background: rgba(248, 248, 248, 0.4);
   --ProseMirror-gapcursor-after-border-top: var(--nord6);
   --h6-color: var(--nord6);
   --blockquote-border-left: var(--nord9);
@@ -187,9 +185,7 @@
   --noticebar-background: var(--nord13);
   --icon-color-border: rgba(0, 0, 0, 0.08);
 
-  --dark-filter: brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.65)
-    hue-rotate(180deg);
-  --nord-filter: invert(81%) sepia(23%) saturate(459%) hue-rotate(181deg)
-    brightness(90%) contrast(93%);
+  --dark-filter: brightness(0.91) grayscale(0.15) invert(0.95) sepia(0.65) hue-rotate(180deg);
+  --nord-filter: invert(81%) sepia(23%) saturate(459%) brightness(90%) contrast(93%) hue-rotate(181deg);
   --nord4-rgba0\.7: rgba(216, 222, 233, 0.5);
 }

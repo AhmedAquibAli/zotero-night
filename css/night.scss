@@ -20,14 +20,17 @@
 }
 
 #main-window[theme='dark'] {
+
   #zotero-tb-toggle-item-pane,
   #zotero-tb-toggle-notes-pane {
     background: var(--nord1) !important;
   }
+
   #zotero-tb-toggle-item-pane span,
   #zotero-tb-toggle-notes-pane span {
     display: none;
   }
+
   #zotero-tb-split {
     background: var(--nord0) !important;
   }
@@ -62,6 +65,7 @@
   }
 
   background-color: black;
+
   * {
     border: 0 !important;
     transition: color 0.15s ease, background-color 0.15s ease;
@@ -70,11 +74,12 @@
   zoteroitembox label {
     color: var(--nord4) !important;
   }
+
   zoteroitembox label:not(.zotero-clicky) {
     color: var(--nord5) !important;
   }
 
-  #zotero-tb-toggle-item-pane > span {
+  #zotero-tb-toggle-item-pane>span {
     background: var(--nord0) !important;
   }
 
@@ -134,6 +139,7 @@
       background: var(--nord2) !important;
       color: var(--nord4) !important;
     }
+
     &.selected {
       background: var(--nord2) !important;
     }
@@ -162,6 +168,7 @@
     }
 
     &:focus {
+
       .row.focused,
       .row.selected {
         margin: 0px !important;
@@ -179,17 +186,21 @@
     **/
   .virtualized-table.multi-select:focus .row.focused {
     width: 100% !important;
-    & > * {
+
+    &>* {
       width: 100% !important;
       margin: 0px !important;
+
       &:first-child {
         margin-inline-start: 0px !important;
       }
+
       &:last-child {
         margin-inline-end: 0px !important;
       }
     }
   }
+
   .virtualized-table {
     .row {
       border: 0 !important;
@@ -230,15 +241,17 @@
       color: var(--nord5) !important;
       border: 0 !important;
     }
+
     label:first-child {
-      row > label:first-child {
+      row>label:first-child {
         color: var(--nord5) !important;
       }
     }
   }
 
   #tab-bar-container {
-    background-color: #1f242d;
+    background-color: #222222;
+
     .tabs {
       background: var(--background);
       color: var(--nord5);
@@ -282,6 +295,7 @@
     }
 
     .tabs {
+
       &::before,
       &::after {
         filter: brightness(0.7);
@@ -292,13 +306,14 @@
       &::before {
         border-bottom-right-radius: 4px;
       }
+
       &::after {
         border-bottom-left-radius: 4px;
       }
     }
   }
 
-  .toolbar .annotation-tools .toolbarButton > span {
+  .toolbar .annotation-tools .toolbarButton>span {
     background: none;
   }
 
@@ -309,6 +324,7 @@
   tab label:hover {
     color: var(--nord3);
   }
+
   .zotero-context-pane-editor-parent-line {
     background-color: var(--nord0);
     color: var(--nord4);
@@ -346,6 +362,7 @@
               color: var(--nord5);
               background: var(--nord3);
             }
+
             &.highlighted {
               color: var(--nord3);
               background: var(--nord13);
@@ -404,12 +421,14 @@
       .row.selected .twisty svg {
         fill: var(--nord6) !important;
       }
+
       .twisty svg {
         fill: var(--nord35) !important;
       }
     }
 
     .virtualized-table {
+
       &:-moz-window-inactive,
       &:not(:focus) {
         .row {
@@ -418,6 +437,7 @@
               color: var(--nord5);
               background: var(--nord3);
             }
+
             &.highlighted {
               color: var(--nord3);
               background: var(--nord13);
@@ -440,12 +460,13 @@
     dropmarker {
       filter: var(--dark-filter);
     }
+
     span {
       background: none !important;
     }
   }
 
-  .zotero-tb-button:-moz-window-inactive > .toolbarbutton-icon {
+  .zotero-tb-button:-moz-window-inactive>.toolbarbutton-icon {
     background: none;
   }
 
@@ -454,6 +475,7 @@
     color: var(--nord5) !important;
     border-bottom: 1px solid var(--nord2) !important;
   }
+
   //   border-bottom: 1px solid var(--nord2) !important;
 
   .zotero-item-pane-content {
@@ -464,11 +486,13 @@
       &:hover {
         background: var(--nord3) !important;
       }
+
       :not([disabled='true']):not(.disabled):hover {
         background: var(--nord3) !important;
       }
     }
-    & > groupbox > .groupbox-body {
+
+    &>groupbox>.groupbox-body {
       background: var(--nord0) !important;
       color: var(--nord5) !important;
     }
@@ -495,7 +519,7 @@
     /**
     * Make the label bold
     **/
-    row > label:first-of-type {
+    row>label:first-of-type {
       font-weight: 600 !important;
     }
 
@@ -507,31 +531,38 @@
       tab {
         background: var(--nord1);
         border: 1px solid var(--nord2) !important;
+
         label:not(.zotero-clicky) {
           color: var(--nord4);
         }
+
         &:first-child {
           border-top-left-radius: 0.3rem !important;
           border-bottom-left-radius: 0.3rem !important;
         }
+
         &:last-child {
           border-top-right-radius: 0.3rem !important;
           border-bottom-right-radius: 0.3rem !important;
         }
+
         &[selected='true'] {
           // filter: var(--dark-filter);
           color: var(--nord6) !important;
           background: var(--nord3) !important;
+
           label {
             color: var(--nord6) !important;
           }
         }
+
         &:hover {
           background: var(--nord3) !important;
           cursor: pointer;
         }
       }
     }
+
     // tab {
     //   color: var(--nord4) !important;
     //   background: var(--nord1) !important;
@@ -576,7 +607,7 @@
     background: var(--nord2);
   }
 
-  #zotero-duplicates-merge-pane > groupbox > .groupbox-body {
+  #zotero-duplicates-merge-pane>groupbox>.groupbox-body {
     background: var(--nord0);
     color: var(--nord5);
   }
@@ -666,7 +697,7 @@
   /**
   * Override these dang moz-appearances
   **/
-  .zotero-view-tabbox > tabs > tab {
+  .zotero-view-tabbox>tabs>tab {
     -moz-appearance: none !important;
   }
 
@@ -695,9 +726,11 @@
   #better-bibtex-citekey-display {
     color: var(--nord6) !important;
   }
+
   #zotero-tb-search {
     filter: var(--dark-filter);
   }
+
   .toolbarbutton-icon {
     background: none !important;
   }
@@ -725,16 +758,18 @@
       &::before {
         filter: var(--nord-filter);
       }
+
       &.toggled::before {
         filter: none;
       }
 
-      &:last-child > span:first-child {
+      &:last-child>span:first-child {
         margin-left: 20px;
         background: var(--nord0) !important;
       }
     }
   }
+
   //  #zotero-pane .menuitem label {
   //    color: var(--nord3) !important;
   //  }
@@ -768,6 +803,7 @@
   menu {
     background: var(--nord1) !important;
     color: var(--nord4) !important;
+
     &:hover {
       color: var(--nord4) !important;
       background: var(--nord3) !important;
@@ -777,13 +813,16 @@
   menuitem {
     background: var(--nord1) !important;
     color: var(--nord4) !important;
+
     &:hover {
       color: var(--nord4) !important;
       background: var(--nord3) !important;
     }
+
     .menu-text {
       color: var(--nord4) !important;
     }
+
     label {
       color: var(--nord4) !important;
     }
@@ -793,6 +832,7 @@
     background: var(--nord1);
 
     border-radius: 0.5rem;
+
     menu {
       hbox {
         filter: invert(1);
@@ -872,6 +912,7 @@ border-radius: 3px;
     0% {
       opacity: 0;
     }
+
     100% {
       opacity: 1;
     }
