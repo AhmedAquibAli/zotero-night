@@ -271,7 +271,7 @@
         color: var(--nord6);
         padding-top: 0.2rem;
         //    background:
-        background-color: #1f242d;
+        background-color: #252525;
         border-top: 0px solid var(--nord9);
         border-left: 0px solid var(--nord3);
         border-right: none;
@@ -479,7 +479,7 @@
   //   border-bottom: 1px solid var(--nord2) !important;
 
   .zotero-item-pane-content {
-    background: var(--nord0) !important;
+    background: var(--nord1) !important;
     color: var(--nord5) !important;
 
     .zotero-clicky {
@@ -716,7 +716,7 @@
   }
 
   zoteroitembox {
-    background: var(--nord0) !important;
+    background: var(--nord1) !important;
   }
 
   #better-bibtex-fields {
